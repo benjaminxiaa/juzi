@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 .header {
@@ -40,17 +39,58 @@
     flex-grow: 2;
 }
 
-.books {
+.books, .shows, .life {
     text-align: center;
     flex-grow: 1;
 }
 
-.shows {
+.banner {
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    background-color: black;
+}
+
+.banner p {
+    color: white;
     text-align: center;
     flex-grow: 1;
 }
 
-.life {
+.articles {
+    width: 100%;
+    height: 15vh;
+
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.articles p {
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.current {
+    width: 100%;
+    height: 56.7vh;
+
+    background-color: #b2d6d6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current p {
+    color: white;
     text-align: center;
     flex-grow: 1;
 }
