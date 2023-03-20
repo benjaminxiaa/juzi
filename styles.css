@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+
+    width: 100%;
+    height: 80px;
+
+    background-color: #b2d6d6;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.header h1 a, h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header h1 a:hover, h3 a:hover {
+    text-decoration: none;
+    color: #545454;
+}
+
+.name {
+    margin-left: 1.5em;
+    text-align: left;
+    flex-grow: 2;
+}
+
+.about {
+    margin-right: 1.5em;
+    text-align: right;
+    flex-grow: 2;
+}
+
+.books {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.shows {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.life {
+    text-align: center;
+    flex-grow: 1;
+}
